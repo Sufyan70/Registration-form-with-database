@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+.form-control{
+    box-shadow: 0px 0px 2px black;
+}
+#firstNameError{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}
+#LastNameError{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}
+#QualificationError{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}
+#nicError{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}
+#emailError{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}
+#phoneError{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}
+#courceError{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}
+#passError{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}
+#passErrorLength{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}
+#emailValidationError{
+    color: red;
+    background-color: rgb(230, 200, 200);
+    display: none;
+}

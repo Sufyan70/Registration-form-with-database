@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+</head>
+
+<body class="bg-primary">
+    <section class="vh-100 gradient-custom">
+        <div class="container py-5 h-100">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-12 col-lg-9 col-xl-7">
+                    <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                        <div class="card-body p-4 p-md-5">
+                            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 text-primary">Registration Form</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+
+                                        <div class="form-outline">
+                                            <input type="text" id="firstName" class="form-control form-control-lg" />
+                                            <label class="form-label" for="firstName">First Name</label>
+                                            <p id="firstNameError">This field is must be required*</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+
+
+                                        <div class="form-outline">
+                                            <input type="text" id="lastName" class="form-control form-control-lg" />
+                                            <label class="form-label" for="lastName">Last Name</label>
+                                            <p id="LastNameError">This field is must be required*</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                                        <div class="form-outline datepicker w-100">
+                                            <input type="text" class="form-control form-control-lg" id="Qualificaton" />
+                                            <label for="birthdayDate" class="form-label">Last Qualificaton</label>
+                                            <p id="QualificationError">This field is must be required*</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                                        <div class="form-outline datepicker w-100">
+                                            <input type="text" class="form-control form-control-lg" id="nic" />
+                                            <label for="birthdayDate" class="form-label">N-I-C</label>
+                                            <p id="nicError">This field is must be required*</p>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4 pb-2">
+
+                                            <div class="form-outline">
+                                                <input type="email" id="emailAddress"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label" for="emailAddress">Email Address</label>
+                                                <p id="emailError">This field is must be required*</p>
+                                                <p id="emailValidationError">Input Valid Email Address</p>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6 mb-4 pb-2">
+
+                                            <div class="form-outline">
+                                                <input type="tel" id="phoneNumber"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label" for="phoneNumber">Phone Number</label>
+                                                <p id="phoneError">This field is must be required*</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4 pb-2">
+
+                                            <div class="form-outline">
+                                                <input type="email" id="Cource" class="form-control form-control-lg" />
+                                                <label class="form-label" for="emailAddress">Cource</label>
+                                                <p id="courceError">This field is must be required*</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6 mb-4 pb-2">
+
+                                            <div class="form-outline">
+                                                <input type="tel" id="Password" class="form-control form-control-lg" />
+                                                <label class="form-label" for="phoneNumber">Password</label>
+                                                <p id="passError">This field is must be required*</p>
+                                                <p id="passErrorLength">Password must be Contain 8 Letters</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </form>
+                        </div>
+                        <div class="mt-4 pt-2">
+                            <button onclick="Add()" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+
+                        <p id="parent"></p>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="app.js" type="module"></script>
+
+</html>
